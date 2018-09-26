@@ -15,7 +15,6 @@ export default class PixiBoot extends PIXI.Application
 
 		document.body.appendChild(this.view);
 
-
 		this.bunny = PIXI.Sprite.fromImage('bunny.png');
 
 		this.bunny.anchor.set(0.5);
