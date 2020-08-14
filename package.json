@@ -1,16 +1,15 @@
 {
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --out-dir bin --open"
+    "start": "parcel src/index.html --out-dir bin --open"
   },
   "dependencies": {
-    "pixi.js": "^4.8.2"
+    "pixi.js": "^5.3.3"
   },
   "devDependencies": {
-    "@types/pixi.js": "^4.8.1",
-    "parcel-bundler": "1.10.0",
+    "parcel-bundler": "1.12.4",
     "parcel-plugin-json-url-loader": "^0.1.1",
-    "parcel-plugin-static-files-copy": "^1.2.1",
-    "typescript": "^3.0.3"
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "typescript": "^3.9.7"
   }
 }

@@ -1,8 +1,8 @@
-import * as PIXI from 'pixi.js'
+import { Application, Sprite } from 'pixi.js'
 
-export default class PixiBoot extends PIXI.Application
+export default class PixiBoot extends Application
 {
-	bunny:PIXI.Sprite;
+	bunny:Sprite;
 
 	constructor()
 	{
@@ -15,7 +15,7 @@ export default class PixiBoot extends PIXI.Application
 
 		document.body.appendChild(this.view);
 
-		this.bunny = PIXI.Sprite.fromImage('bunny.png');
+		this.bunny = Sprite.from('bunny.png');
 
 		this.bunny.anchor.set(0.5);
 
